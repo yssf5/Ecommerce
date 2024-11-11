@@ -1,2 +1,12 @@
 <?php
-class CRUD_Produit {}
+require_once "produit.php";
+class CRUD_Produit
+{
+    private $pdo;
+    public function  __construct() {}
+    public function  add() {}
+    public function  delete() {}
+    public function  find() {}
+    public function  findall() {}
+    public function  edit() {}
+}
